@@ -1,0 +1,100 @@
+
+.headerleft {
+    width: 90%;
+    height: 2.85%;
+    top: 4.75%;
+}
+.headerright {
+    width: 90%;
+    height: 2.85%;
+    top: 4.75%;
+    margin-left: 8%;
+}
+.footerleft {
+    width: 90%;
+    top: 0.1%;
+    height: 14.7%;
+}
+.footerright {
+    width: 90%;
+    height: 14.7%;
+    top: 0.1%;
+    margin-left: 8%;
+}
+/************** for mobile ***************/
+@media only screen and (max-width: 480px) {
+    * p {
+            text-align: justify;
+            
+    }    
+    article ,.artleft ,.artright .pic, .art1, .art2, .art3, .artright{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner h2 {
+        text-align: center;
+        padding: 0;
+    }
+    .artleft .pic {
+        flex-direction: column;
+        margin: 0;
+    }
+    .pic p {
+        padding: 0;
+        margin-top: 4%
+    }
+    .quoteline {
+        margin-left: 13%;
+    }
+    .quote p {
+        width: 92%;
+        margin: 0 0 0 8%;
+    }
+    .art2 p, .art3 p {
+        width: 100%;
+        margin: 2% 0;
+    }
+    .buttons button {
+        margin: 1%;
+    }
+    .buttons p {
+        text-align: center;
+    }
+    .about img {
+        width: 55%;
+    }
+    .about h2, .categories h2, .photogallery h2 {
+        font-size: 120%;
+    }
+    .aboutwrap p, .categorieswrap ul {
+        margin: 0;
+    }
+    .categorieswrap ul li{
+        font-size: 100%;
+    }
+    .categories img {
+        width: 60%;
+    }
+    .photogallery img {
+        width: 51%;
+    }
+    footer {
+        height: 29%;
+        margin-top: 3%;
+    }
+    .mainfooter {
+        height: 102%;
+        margin-top: 0;
+    }
+    .mainfooter p {
+        margin: 0;
+        font-size: 130%;
+    }
+    .footer1, .footer2, .footer3 {
+        margin-bottom: 1%;
+    }
+    .footer3 img {
+        margin-top: 2%;
+    }
+}
